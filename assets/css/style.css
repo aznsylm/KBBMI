@@ -1,0 +1,63 @@
+.banner-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.banner-content h1 {
+    color: aqua;
+    font-size: 55px;
+    font-weight: 800px;
+    text-transform: uppercase;
+}
+
+.banner-content p {
+    color:antiquewhite;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+#banner {
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("../banner/alex.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+#film {
+    background-image: linear-gradient(to right, #531010, rgb(14,14,13));
+}
+
+.title-section {
+    color: aqua;
+    font-size: 55px;
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+
+.card-img-top {
+    height: 250px;
+}
+
+.card {
+    transition: 0.3s ease-in-out;
+}
+
+.card:hover {
+    transform: scale(0.9);
+    background-color: rgb(129, 104, 54)
+}
+
+#sinopsis {
+    background-image: linear-gradient(to left, #531010, rgb(14,14,13));
+}
+
+.sinopsis-text{
+    color: aqua;
+}
+
+.card-sinopsis{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
